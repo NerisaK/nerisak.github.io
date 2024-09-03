@@ -1,0 +1,81 @@
+html {    
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #404541;   
+    line-height: 1.5;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("flowers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: fixed; 
+    width: 100vh;
+    height: 100vh;
+    z-index: 1;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: 1fr;
+    gap: 0;
+    margin: 0;
+
+}
+
+.right-column {
+    background-color: hsl(60, 3%, 98%);
+    padding: 7% 12%;
+    z-index: 3;
+}
+
+.left-column {
+    background-color: transparent;
+    padding: 5%;
+    color: hsl(60, 3%, 98%);
+    z-index: 2;
+}
+
+.left-column a {
+    color: hsl(60, 3%, 98%);
+}
+
+header {
+    padding: 30px 0;
+} 
+
+
+h1 {font-size: 50px; font-weight: 600;}
+h2 {font-size: 37px; font-weight: 600; padding-top: 30px;}
+h3 {font-size: 30; font-weight: 600; padding-top: 15px; margin-bottom: 0;}
+
+p, ul {color: #6b756d;}
+ul {list-style-type:circle; line-height: 2; margin-bottom:20px}
+a {text-decoration: none; color: #637e6f; font-weight: 600;}
+a:hover {text-decoration: none; color: #c8a492;}
+img {max-width: 100%; margin: 1.5rem auto;}
+
+hr.solid {
+    border-top: 2px solid hsl(60, 3%, 90%);
+}
+
+.footer-nav {
+    display: flex;
+    text-align: center;
+    column-count: 3;
+    justify-content:space-evenly;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+        
+   
